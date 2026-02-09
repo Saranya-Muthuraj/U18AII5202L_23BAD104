@@ -42,7 +42,7 @@ Created KPI Cards for quick monitoring:
 - **A Grade Count** (Optional)
 
 #### Sample DAX Measures
-```DAX
+DAX
 Avg Attendance % = AVERAGE(StudentData[Attendance_Percentage])
 
 Total Students = DISTINCTCOUNT(StudentData[Student_ID])
